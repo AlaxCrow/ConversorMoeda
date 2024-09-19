@@ -1,0 +1,56 @@
+.converter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 800px;
+  margin: 2rem auto;
+  background-image: linear-gradient( to right, grey, gold);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+}
+
+.converter h2{
+  color: rgb(87, 87, 240);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-style:inset;
+  border-color: white;
+}
+
+.converter img{
+  width: 10%;
+  margin: 10px;
+}
+
+.converter h3{
+  color: rgb(87, 87, 240);   
+}
+
+.converter input,
+.converter select{
+  width: 100%;
+  padding: 0.7rem 1rem;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.converter input{
+  margin-bottom: 30px;
+}
+
+.converter span,
+.converter p{
+  margin: 0.s5rem;
+  font-size: 1.5rem;
+  color:  rgb(87, 87, 240);
+}
+
+.converter p{
+  font-size: 1.5rem;
+  color:  rgb(87, 87, 240);
+}
